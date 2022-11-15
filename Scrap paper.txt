@@ -1,0 +1,33 @@
+Scrap Paper
+
+
+// This is the Owned shops script. It doesn't work.
+if (mysqli_num_rows($result) > 0) {
+		// output data of each row
+		while($row = mysqli_fetch_assoc($result)) {
+		echo "<a href='ShopEdit.php'>";
+		echo "<div class= 'ShopPanel'>";
+		echo "Shop Name: " . $row["ShopName"]. " Address: " . $row["ShopAddress"]. " Shop Desc: " . $row["ShopDesc"]. "<br>";
+		echo "<button><a href= "ShopEdit.php?=. $row['ShopID']">Edit Shop</a></button>";
+		echo "</div>";
+		echo "</a>";
+		}
+	} else {
+		echo "0 results";
+	}
+	
+	<h2>"Create Custom Quest"<h2>;
+	<form>;
+	<p>Quest Title</p>;
+	<Input type="text" id="QuestTitle">;
+	
+	
+	</form>
+
+
+
+
+
+Order Builder thought process
+First I want people to click a button and select a restaraunt.
+I want this to be in a dropdown menu but I have to find a way to populate that dropdown menu. Another option is to put this all in a popup box. Should I just create a new function to handle this?

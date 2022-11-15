@@ -1,0 +1,224 @@
+Nav {
+	Border: 5px #ccc91f solid;
+	Width: 15%;
+	Height: 99%;
+	Float: Left;
+}
+.ProfileFeed{
+	width: 32%;
+	border: 5px green solid;
+	float: left;
+	Height: 99%;
+}
+
+.ProfileFriends {
+	Border: 5px orange solid;
+	width: 25%;
+	float: left;
+	Height: 48.5%;
+}
+.profilePhotos {
+	Border: 5px blue solid;
+	width: 25%;
+	height: 48.5%;
+	Float: left;
+	
+}
+.ProfileChange {
+	border: 5px red solid;
+	Width: 25%;
+	Height: 99%;
+	float: right;
+}
+.allPlayersSignUpBox {
+	Width: 24%;
+	Border: 5px Red solid;
+	Height: 90%;
+	float: left;
+}
+.HeroSignUpBox{
+	Width: 24%;
+	Border: 5px yellow solid;
+	Height: 90%;
+	float: left;
+}
+.QuestMakerSignUpBox {
+	Width: 24%;
+	Border: 5px blue solid;
+	Height: 90%;
+	float: left;
+}
+.ShopOwnerSignUpBox {
+	Width: 24%;
+	Border: 5px green solid;
+	Height: 90%;
+	float: left;
+}
+.ProceedSignUpBox {
+	Width: 98.25%;
+	Border: 5px purple solid;
+	Height: 8%;
+	float: left;
+	text-align: center;
+	vertical-align: center;
+}
+.OwnedShops  {
+	float: left;
+	border: 5px Green solid;
+	width: 57.5%;
+	Height: 48%;
+	overflow-y: scroll;
+}
+.EmployedShops {
+	float: left;
+	vertical-align: bottom;
+	border: 5px Purple solid;
+	width: 57.5%;
+	Height: 48%;
+}
+.NextWork{
+	float: right;
+	border: 5px Red solid;
+	width: 25%;
+	Height: 99%;
+}
+
+.PostedQuests {
+	Height: 40%;
+	Width: 60%;
+	Border: 5px Green solid;
+	float: left;
+}
+.CreateQuests {
+	Height: 40%;
+	Width: 60%;
+	float: left;
+	Border: 5px Purple solid;
+}
+.QuestMap {
+	height: 48%;
+	Width: 60%;
+	Border: 5px blue solid;
+	float: left;
+	object-fit: cover;
+}
+.QuestFilter {
+	Height: 99%;
+	width: 22%;
+	border: 5px red solid;
+	float: right;
+}
+.QuestList {
+	Height: 50%;
+	width: 60%;
+	Border: 5px green solid;
+	float: left;
+}
+.AddFunds {
+	Border: 5px Green solid;
+	Height: 49%;
+	Width: 35%;
+	float: left;
+}
+.CurrentFunds {
+	Border: 5px yellow solid;
+	Height: 49%;
+	Width: 35%;
+	float: left;
+}
+.AddNewPaymentMethod {
+	Border: 5px purple solid;
+	Height: 49%;
+	Width: 35%;
+	float: left;
+}
+.TransferFundsToAlly {
+	Border: 5px red solid;
+	Height: 49%;
+	Width: 35%;
+	float: left;
+}
+.ShopPanel {
+	border: 3px blue solid;
+	border-radius: 15px;
+	background: #E4E4E4;
+}
+.MenuPanel {
+	border: 5px red solid;
+	Height: 99%;
+	width: 20%;
+	float: left;
+}
+.ShopFinPanel {
+	Border: 5px Orange solid;
+	Height: 45%;
+	Width: 30%;
+	float: left;
+}
+.ShopRoster {
+	border: 5px green solid;
+	Height: 99%;
+	width: 30%;
+	float: right;
+}
+.ShopSupplyPanel {
+	Border: 5px blue solid;
+	Height: 45%;
+	Width: 30%;
+	float: left;
+}
+.modal{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%) scale(0);
+	transition: 200ms ease-in-out;
+	border: 3px solid black;
+	border-radius: 10px;
+	z-index: -5;
+	background: white;
+	width: 75%;
+	max-width: 80%;
+	height: 75%;
+}
+.modal.active{
+	transform: translate(-50%,-50%) scale(1);
+	z-index: 10;
+}
+.modal-header{
+	padding: 10px 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid black;
+}
+.modal-header .title{
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+.modal-header .close-button{
+	cursor: pointer;
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+.modal-body{
+	padding: 10px 15px;
+}
+#overlay{
+	position: fixed;
+	opacity: 0;
+	transition: 200ms ease-in-out;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,.5);
+	pointer-events: none;
+}
+#overlay.active{
+	opacity: 1;
+	pointer-events: all;
+}

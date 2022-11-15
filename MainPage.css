@@ -1,0 +1,95 @@
+.TopBanner {
+	font-family: Luminari;
+	color: purple;
+	font-size: 40px;
+	line-height: 10px;
+	height: 100px;
+	width: 95%;
+	Margin: auto;
+	text-align: Left;
+	background-Image: linear-gradient(to right, Green 35%, purple), url('https://thedvba.org/wp-content/uploads/2018/08/framer.jpg');
+	border: 5px #dedb21 solid;
+	Border-radius: 25px;
+	/* This section adds the images from the slide show,but I only have one image so far,
+	it doesn't slideshow, and the background gradient doesn't show when it's turned on.
+	
+	background-image:url('https://thedvba.org/wp-content/uploads/2018/08/framer.jpg');
+	background-repeat: no-repeat;
+	background-position: Right;
+	*/
+	
+}
+.NavButton{
+	Border: 5px #ccc91f solid;
+	background-color: #dedb21;
+	border-radius: 25px;
+	Font-size: 20px;
+	width: 300px;
+	height: 30px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	vertical-align: middle;
+}
+ul li {
+	display: inline-block;
+}
+Nav {
+	
+	Margin: auto;
+	border-radius: 25px;
+	Float: left;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	color: green;
+}
+
+body{
+	background-image:url('https://previews.123rf.com/images/yko54/yko541212/yko54121200049/17013243-%EA%B7%B8%EB%9F%B0-%ED%8C%8C%ED%94%BC%EB%A3%A8%EC%8A%A4-%EB%B0%B0%EA%B2%BD.jpg');
+	background-size: cover;
+	background-repeat: repeat;
+	
+}
+.container{
+	Margin-left: 75px;
+	float: left;
+}
+.SignUpBox{
+	float: left;
+	font-size: 20px;
+	padding: 30px 0px 60px 80px;
+	Margin-left: 20px;
+	Border-radius: 25px;
+	Border: 5px gold solid;
+	width: 400px;
+	Height: 400px;
+	Background-Image: url(https://media.istockphoto.com/photos/blank-scroll-isolated-on-white-picture-id185090197?k=20&m=185090197&s=612x612&w=0&h=nSP2Roslr1escJvJB6mo4h6jaBoZuTj5YbS1ZeJ8ugM=);
+	Background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0px -70px;
+}
+.LoginBox{
+	font-size: 20px;
+	padding: 50px 0px 60px 80px;
+	Margin: 10px 20px 10px 20px;
+	Border-radius: 25px;
+	Border: 5px gold solid;
+	width: 400px;
+	Background-Image: url('https://thumbs.dreamstime.com/b/scroll-2-10622559.jpg');
+	background-size: 100%;
+}
+.AboutPage{
+	padding: 20px 50px 0px 50px;
+	Margin: 10px 25px 0px 25px;
+	background-color: purple;
+	color: gold;
+}
+.TopNews{
+	padding: 20px 20px 20px 20px;
+	Margin: 20px 80px 20px 20px;
+	width: 40%;
+	Height: 400px;
+	Float: right;
+	border: 5px gold solid;
+	Border-radius: 25px;
+}

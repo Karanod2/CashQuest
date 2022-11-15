@@ -1,0 +1,27 @@
+To-Do List
+Minor Bug Fixes
+	Make the Sidebar appear the same on every page.
+	Add .css to EVERYTHING
+	Add "Max-Width" to the css for everything so that it resizes on window resize.
+Add Error Checking
+	Create Quest
+	Claim Quest
+	Finish Quest
+	Prevent players from accessing questpages by editing the URL.
+Add Functionality
+	Create Quest Buttons
+	Add proper locations to Shops	
+	Add locations to Quests
+	Add Sort & Filter to Quest List
+	Add AJAX to the Quest List output.
+	Create Money-per-Mile statistic for available quests
+	Banking Option
+	Make it so you can edit/delete quests
+	Add repeating quests so that people can be hired through Shops
+	Add Social Media sections
+	Add rating/review system
+	Add XP system`
+	Making food task should appear on the shops questlist once a player has accepted the quest. (and the driver is a 		reasonable distance/time away.)
+	Add option to offer new quests to specific Heros or Shops
+	Add option to view Heros operating in your area.
+	Add the option to change a shops location.
